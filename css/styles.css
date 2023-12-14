@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+body {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    }
+header {
+    background-color: #987979;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }   
+.logo {
+    flex-basis: 20%;
+  
+} 
+.logo img{
+    width: 150px;
+}
+.nav {
+    flex-basis: 80%;
+  }
+.nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 29px;
+    transition-duration: 0.4s;
+}
+.nav ul li a:hover{
+    color: #fffbd6;
+    background-color: #cc2229;
+}
+.heroBanner {
+    background-color: #6e5b5c8c;
+    height: 1000px;
+    background-image: url(../img/cafeWideAngle.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-blend-mode: soft-light;
+    }
+    .heroBanner h1 {
+        font-size: 90px;
+        color: white;
+        font-weight: bolder;
+        animation: fadeIn 2s ease-in-out, moveIn 2s ease-in-out;
+    }
+    @keyframes moveIn {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0%);
+        }
+    }
+
+
+
