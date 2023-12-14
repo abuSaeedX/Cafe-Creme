@@ -6,7 +6,7 @@ body {
     }
 header {
     background-color: #987979;
-    padding: 10px 0;
+    padding: 20px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,7 +21,7 @@ header {
     }   
 .logo {
     flex-basis: 20%;
-  
+    padding-top: 20px;
 } 
 .logo img{
     width: 150px;
